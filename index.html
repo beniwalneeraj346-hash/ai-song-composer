@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Song Composer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Song Composer</h1>
+        <textarea id="lyrics-input" placeholder="Enter your lyrics here..."></textarea>
+        <label for="genre-select">Select Genre:</label>
+        <select id="genre-select">
+            <option value="pop">Pop</option>
+            <option value="rock">Rock</option>
+            <option value="jazz">Jazz</option>
+            <option value="country">Country</option>
+        </select>
+        <label for="voice-select">Select Voice:</label>
+        <select id="voice-select">
+            <option value="voice1">Voice 1</option>
+            <option value="voice2">Voice 2</option>
+            <option value="voice3">Voice 3</option>
+        </select>
+        <button id="generate-btn">Generate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
