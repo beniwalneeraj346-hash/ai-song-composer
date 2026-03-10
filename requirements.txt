@@ -1,0 +1,3 @@
+Flask
+google-gemini-api
+music-generation-library
